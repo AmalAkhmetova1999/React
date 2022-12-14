@@ -7,6 +7,27 @@
   pointer-events: none;
 }
 
+.clock {
+  background-color: rgb(76, 186, 213);
+  opacity: 0.8;
+  float: right;
+  font-size: 50pt;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+}
+
+.counter {
+  text-align: center;
+}
+
+.button {
+  background-color: #1976d2;
+  border: none;
+  width: 7%;
+  border-radius: 5px;
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +53,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
